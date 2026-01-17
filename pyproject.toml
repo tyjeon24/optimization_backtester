@@ -1,0 +1,27 @@
+[project]
+name = "optimization-backtester"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "pandas>=2.2.3",
+    "yfinance>=0.2.50",
+    "plotly>=5.24.1",
+    "nbformat>=5.10.4",
+    "ax-platform>=0.4.3",
+    "fastparquet>=2024.11.0",
+    "pyarrow>=18.1.0",
+    "typeguard>=4.4.1",
+    "mypy>=1.14.1",
+    "wandb>=0.19.4",
+    "pandera>=0.22.1",
+]
+license = { text = "MIT" }
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.13",
+    "ty>=0.0.12",
+]
